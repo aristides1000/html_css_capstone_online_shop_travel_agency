@@ -1,0 +1,14 @@
+$body-bg-color: #f8f9fa;
+$color-text-dark: rgba(0,0,0,.55);
+$color-blue: rgb(69, 624, 255);
+$secundary-color: #ffbe98;
+
+%z-index-2 {
+  z-index: 2;
+}
+
+%bg-color {
+  background: linear-gradient(153deg, rgba(73,255,201,1) 0%, rgba(71,240,228,1) 25%, rgb(69, 224, 255) 50%, rgba(71,240,228,1) 75%, rgba(73,255,201,1) 100%);
+  background-size: 400% 300%;
+  background-position: 50%;
+}

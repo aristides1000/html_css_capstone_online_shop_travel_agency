@@ -1,0 +1,35 @@
+.left-section {
+  grid-area: left-section;
+}
+
+.right-section {
+  grid-area: right-section;
+}
+
+.main-search-grid {
+  background-color: $body-bg-color;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "right-section";
+}
+
+.bg-color-white {
+  background-color: white;
+}
+
+.img-search-article {
+  object-fit: cover;
+}
+
+.secundary-color-text {
+  color: $secundary-color;
+}
+
+@media (min-width: 768px) {
+  .main-search-grid {
+    grid-template-columns: 30% 70%;
+    grid-template-areas:
+    "left-section right-section";
+  }
+}
