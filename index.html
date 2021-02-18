@@ -6,35 +6,171 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>Venezuela travel agency</title>
+  <title>Venezuela Travel Agency</title>
 </head>
 <body>
   <header>
-    <nav class="navbar">
-
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/logo-color.png" alt="" width="30" height="30" class="d-inline-block align-top">
+          Venezuela Travel Agency
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active d-flex align-items-center" aria-current="page" href="index.html">
+                <ion-icon name="home-sharp"></ion-icon>
+                <span class="ps-1">Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="#">
+                <ion-icon name="trophy-sharp"></ion-icon>
+                <span class="ps-1">Promotions</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <ion-icon name="sunny-sharp"></ion-icon>
+                <span class="ps-1">Region</span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Islands</a></li>
+                <li><a class="dropdown-item" href="#">Tepuis</a></li>
+                <li><a class="dropdown-item" href="#">Deserts</a></li>
+                <li><a class="dropdown-item" href="#">Moutains</a></li>
+                <li><a class="dropdown-item" href="#">Jungles</a></li>
+                <li><a class="dropdown-item" href="#">Plains</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex align-items-center">
+            <button class="btn btn-outline-success d-flex align-items-center btn-bg-color border-0" type="submit">
+              <ion-icon name="cart-sharp"></ion-icon>
+              <span class="ms-1">Shopping Cart</span>
+            </button>
+            <a href="#" class="ps-2 btn-bg-color d-flex align-items-center justify-content-center p-2 ms-3 rounded-circle">
+              <ion-icon name="person" class="btn-bg-color"></ion-icon>
+            </a>
+          </form>
+        </div>
+      </div>
     </nav>
-    <section class="search-section">
-
+    <section class="search-section d-flex flex-column align-items-center" id="particles-js">
+      <h1 class="pt-3 d-none d-md-block title-z-index color-white">
+        Venezuela Travel Agency
+      </h1>
+      <h2 class="pt-3 d-none d-md-block subtitle-z-index color-white">
+        Discover the gift of nature
+      </h2>
+      <div class="input-group pt-4 pt-md-3 form-search input-z-index">
+        <select class="d-none d-md-flex btn-bg-color rounded-start border-white">
+          <option class="btn-bg-color color-text-dark">Any region</option>
+          <option class="btn-bg-color color-text-dark">Islands</option>
+          <option class="btn-bg-color color-text-dark">Tepuis</option>
+          <option class="btn-bg-color color-text-dark">Deserts</option>
+          <option class="btn-bg-color color-text-dark">Moutains</option>
+          <option class="btn-bg-color color-text-dark">Jungles</option>
+          <option class="btn-bg-color color-text-dark">Plains</option>
+        </select>
+        <input type="text" class="form-control  border-white" placeholder="Place" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <a href="search.html" class="input-group-text d-flex align-items-center border-white text-decoration-none rounded-end btn-bg-color" id="basic-addon2">
+          <ion-icon name="search-sharp"></ion-icon>
+          <span>Search</span>
+        </a>
+      </div>
     </section>
   </header>
-  <main>
-    <section class="Carousel-section">
-
+  <main class="main-grid main mx-auto">
+    <section class="carousel-section mx-md-3">
+      <h2>Our promotions</h2>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <article class="carousel-item active">
+            <div class="d-flex flex-md-row card border-0">
+              <img src="assets/carousel-img-1.jpg" alt="Los-roques" class="img-carousel me-md-3">
+              <div class="me-md-3 w-100 card-body">
+                <h2>Los Roques archipelago</h2>
+                <h4>Swim with us on its beautiful islands.</h4>
+                <p class=""><strong>Location:</strong> Federal Dependencies, Venezuela</p>
+                <div class="d-flex col-12 align-items-center justify-content-center">
+                  <button type="button" class="btn btn-primary me-4 btn-bg-color border-0">$600</button>
+                  <button type="button" class="btn btn-primary btn-bg-color border-0">More information</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="carousel-item">
+            <div class="d-flex flex-md-row card border-0">
+              <img src="assets/carousel-img-2.jpg" alt="Los-roques" class="img-carousel me-md-3">
+              <div class="me-md-3 w-100 card-body">
+                <h2>Angel Falls</h2>
+                <h4>Visit the largest waterfall in the world.</h4>
+                <p class=""><strong>Location:</strong> Bolivar state, Venezuela</p>
+                <div class="d-flex col-12 align-items-center justify-content-center">
+                  <button type="button" class="btn btn-primary me-4 btn-bg-color border-0">$600</button>
+                  <button type="button" class="btn btn-primary btn-bg-color border-0">More information</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="carousel-item">
+            <div class="d-flex flex-md-row card border-0">
+              <img src="assets/carousel-img-3.jpg" alt="Los-roques" class="img-carousel me-md-3">
+              <div class="me-md-3 w-100 card-body">
+                <h2>Bolivar Peak</h2>
+                <h4>Meet the highest peak in Venezuela.</h4>
+                <p class=""><strong>Location:</strong> Merida state, Venezuela</p>
+                <div class="d-flex col-12 align-items-center justify-content-center">
+                  <button type="button" class="btn btn-primary me-4 btn-bg-color border-0">$250</button>
+                  <button type="button" class="btn btn-primary btn-bg-color border-0">More information</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="carousel-item">
+            <div class="d-flex flex-md-row card border-0">
+              <img src="assets/carousel-img-4.jpeg" alt="Los-roques" class="img-carousel me-md-3">
+              <div class="me-md-3 w-100 card-body">
+                <h2>Coro's Medano</h2>
+                <h4>Meet and relax in the desert with us.</h4>
+                <p class=""><strong>Location:</strong> Falcon state, Venezuela</p>
+                <div class="d-flex col-12 align-items-center justify-content-center">
+                  <button type="button" class="btn btn-primary me-4 btn-bg-color border-0">$200</button>
+                  <button type="button" class="btn btn-primary btn-bg-color border-0">More information</button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <ion-icon name="chevron-back" class="fw-bolder carousel-control"></ion-icon>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <ion-icon name="chevron-forward" class="fw-bolder carousel-control"></ion-icon>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
-    <section class="first-travel-section">
-
+    <section class="first-travel-section mx-md-3">
+      hola
     </section>
-    <section class="second-travel-section">
+    <section class="second-travel-section mx-md-3">
       
     </section>
-    <section class="third-travel-section">
+    <section class="third-travel-section mx-md-3">
       
     </section>
   </main>
   <footer>
     <section>
       <article class="">
-
+        
       </article>
       <article class="">
 
@@ -47,5 +183,7 @@
 
   <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

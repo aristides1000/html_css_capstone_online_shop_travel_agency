@@ -1,0 +1,128 @@
+$body-bg-color: #f8f9fa;
+$color-text-dark: rgba(0,0,0,.55);
+$color-blue: rgb(69, 624, 255);
+
+body {
+  background-color: $body-bg-color;
+  color: $color-text-dark;
+}
+
+%z-index-2 {
+  z-index: 2;
+}
+
+.title-z-index, .subtitle-z-index, .input-z-index {
+  @extend %z-index-2;
+}
+
+.navbar {
+  z-index: 3;
+}
+
+.color-white {
+  color: white;
+}
+
+%bg-color {
+  background: linear-gradient(153deg, rgba(73,255,201,1) 0%, rgba(71,240,228,1) 25%, rgb(69, 224, 255) 50%, rgba(71,240,228,1) 75%, rgba(73,255,201,1) 100%);
+  background-size: 400% 300%;
+  background-position: 50%;
+}
+
+#particles-js {
+  @extend %bg-color;
+  animation: BgGradient 10s ease infinite;
+  width: 100%;
+  height: 87px;
+}
+
+.btn-bg-color {
+  @extend %bg-color;
+  animation: BgGradient 2s ease infinite;
+  color: white;
+}
+
+.particles-js-canvas-el {
+  position: relative;
+  top: -61px;
+}
+
+@keyframes BgGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.form-search {
+  width: 278px;
+}
+
+.carousel-section {
+  grid-area: carousel-section;
+}
+
+.first-travel-section {
+  grid-area: first-travel-section;
+}
+
+.second-travel-section {
+  grid-area: second-travel-section;
+}
+
+.third-travel-section {
+  grid-area: third-travel-section;
+}
+
+.main {
+  max-width: 1200px;
+  background-color: white;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "carousel-section"
+  "first-travel-section"
+  "second-travel-section"
+  "third-travel-section";
+}
+
+.img-carousel {
+  width: 100%;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.carousel-control {
+  color: $color-blue;
+  width: 5rem;
+  height: 5rem;
+}
+
+footer {
+  background-color: white;
+}
+
+.color-text-dark {
+  color: $color-text-dark;
+}
+
+@media (min-width: 768px) {
+  .form-search {
+    width: 633px;
+  }
+
+  #particles-js {
+    height: 222px;
+  }
+
+  .particles-js-canvas-el {
+    top: -188px;
+  }
+
+  .img-carousel {
+    width: 500px;
+    height: 300px;
+  }
+}
