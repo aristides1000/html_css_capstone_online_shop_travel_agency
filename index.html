@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/logo-color-2.ico" />
+  <title>Venezuela Travel Agency</title>
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <a class="travel-navbar-brand" href="index.html">
+            <img src="assets/logo-color-2.png" alt="" width="30" height="30" class="d-inline-block align-top">
+            Venezuela Travel Agency
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="travel-nav-link active d-flex align-items-center" aria-current="page" href="index.html">
+                  <ion-icon name="home-sharp"></ion-icon>
+                  <span class="ps-1">Home</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="travel-nav-link d-flex align-items-center" href="#">
+                  <ion-icon name="trophy-sharp"></ion-icon>
+                  <span class="ps-1">Promotions</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="travel-nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <ion-icon name="sunny-sharp"></ion-icon>
+                  <span class="ps-1">Region</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Islands</a></li>
+                  <li><a class="dropdown-item" href="#">Tepuis</a></li>
+                  <li><a class="dropdown-item" href="#">Deserts</a></li>
+                  <li><a class="dropdown-item" href="#">Moutains</a></li>
+                  <li><a class="dropdown-item" href="#">Jungles</a></li>
+                  <li><a class="dropdown-item" href="#">Plains</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex align-items-center">
+              <button class="btn btn-outline-success d-flex align-items-center btn-bg-color border-0" type="submit">
+                <ion-icon name="cart-sharp"></ion-icon>
+                <span class="shopping-cart">Shopping Cart</span>
+              </button>
+              <a href="#" class="ps-2 btn-bg-color d-flex align-items-center justify-content-center user-icon rounded-circle">
+                <ion-icon name="person" class="btn-bg-color"></ion-icon>
+              </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <section class="search-section d-flex flex-column align-items-center" id="particles-js">
+        <h1 class="pt-3 d-none d-md-block title-z-index color-white">
+          Venezuela Travel Agency
+        </h1>
+        <h2 class="pt-3 d-none d-md-block subtitle-z-index color-white">
+          Discover the gift of nature
+        </h2>
+        <div class="input-group pt-4 pt-md-3 form-search input-z-index">
+          <select class="d-none d-md-flex rounded-start border-end">
+            <option class="color-text-dark">Any region</option>
+            <option class="color-text-dark">Islands</option>
+            <option class="color-text-dark">Tepuis</option>
+            <option class="color-text-dark">Deserts</option>
+            <option class="color-text-dark">Moutains</option>
+            <option class="color-text-dark">Jungles</option>
+            <option class="color-text-dark">Plains</option>
+          </select>
+          <input type="text" class="form-control " placeholder="Place" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <a href="search.html" class="input-group-text d-flex align-items-center text-decoration-none rounded-end btn-bg-dark border-0" id="basic-addon2">
+            <ion-icon name="search-sharp"></ion-icon>
+            <span class="ps-1">Search</span>
+          </a>
+        </div>
+      </section>
+    </div>
+  </header>
+  <main class="main-grid main mx-auto container-fluid">
+    <section class="carousel-section mx-md-3 row">
+      <h2 class="col-12 pt-3">Our promotions</h2>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade col-12" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <article class="carousel-item active">
+            <div class="d-flex flex-md-row card border-0">
+              <img src="assets/carousel-img-1.jpg" alt="Los-roques" class="img-carousel me-md-3 img-fluid">
+              <div class="me-md-3 w-100 card-body">
+                <h2>Los Roques archipelago</h2>
+                <h4>Swim with us on its beautiful islands.</h4>
+                <p class=""><strong>Location:</strong> Federal Dependencies, Venezuela</p>
+                <div class="d-flex col-12 align-items-center justify-content-center">
+                  <button type="button" class="btn btn-primary me-4 btn-bg-color border-0">$600</button>
+                  <button type="button" class="btn btn-primary btn-bg-color border-0">More information</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="carousel-item">
+            <div class="d-flex flex-md-row card border-0">
+              <img src="assets/carousel-img-2.jpg" alt="Los-roques" class="img-carousel me-md-3 img-fluid">
+              <div class="me-md-3 w-100 card-body">
+                <h2>Angel Falls</h2>
+                <h4>Visit the largest waterfall in the world.</h4>
+                <p class=""><strong>Location:</strong> Bolivar state, Venezuela</p>
+                <div class="d-flex col-12 align-items-center justify-content-center">
+                  <button type="button" class="btn btn-primary me-4 btn-bg-color border-0">$600</button>
+                  <button type="button" class="btn btn-primary btn-bg-color border-0">More information</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="carousel-item">
+            <div class="d-flex flex-md-row card border-0">
+              <img src="assets/carousel-img-3.jpg" alt="Los-roques" class="img-carousel me-md-3 img-fluid">
+              <div class="me-md-3 w-100 card-body">
+                <h2>Bolivar Peak</h2>
+                <h4>Meet the highest peak in Venezuela.</h4>
+                <p class=""><strong>Location:</strong> Merida state, Venezuela</p>
+                <div class="d-flex col-12 align-items-center justify-content-center">
+                  <button type="button" class="btn btn-primary me-4 btn-bg-color border-0">$250</button>
+                  <button type="button" class="btn btn-primary btn-bg-color border-0">More information</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="carousel-item">
+            <div class="d-flex flex-md-row card border-0">
+              <img src="assets/carousel-img-4.jpeg" alt="Los-roques" class="img-carousel me-md-3 img-fluid">
+              <div class="me-md-3 w-100 card-body">
+                <h2>Coro's Medano</h2>
+                <h4>Meet and relax in the desert with us.</h4>
+                <p class=""><strong>Location:</strong> Falcon state, Venezuela</p>
+                <div class="d-flex col-12 align-items-center justify-content-center">
+                  <button type="button" class="btn btn-primary me-4 btn-bg-color border-0">$200</button>
+                  <button type="button" class="btn btn-primary btn-bg-color border-0">More information</button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <ion-icon name="chevron-back" class="fw-bolder carousel-control"></ion-icon>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <ion-icon name="chevron-forward" class="fw-bolder carousel-control"></ion-icon>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="first-travel-section mx-md-3 row">
+      <h2 class="col-12 pt-3">
+        Best sellers
+      </h2>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/firts-section-img-1.jpg" class="card-img-top" alt="firts-section-img-1">
+          <div class="card-body">
+            <h6 class="card-title">Canaima National park</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$600</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/firts-section-img-2.jpg" class="card-img-top" alt="firts-section-img-1">
+          <div class="card-body">
+            <h6 class="card-title">Morrocoy National park</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$400</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/firts-section-img-3.jpg" class="card-img-top" alt="firts-section-img-1">
+          <div class="card-body">
+            <h6 class="card-title">Mochima National park</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$500</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/firts-section-img-4.jpg" class="card-img-top" alt="firts-section-img-1">
+          <div class="card-body">
+            <h6 class="card-title">El Ávila National park</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$300</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="second-travel-section mx-md-3 row">
+      <h2 class="col-12 pt-3">
+        More popular
+      </h2>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/second-section-img-1.jpg" class="card-img-top" alt="second-section-img-1">
+          <div class="card-body">
+            <h6 class="card-title">Los Roques Archipelago</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$600</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/second-section-img-2.jpg" class="card-img-top" alt="firts-section-img-1">
+          <div class="card-body">
+            <h6 class="card-title">Henri Pittier National park</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$400</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/second-section-img-3.jpg" class="card-img-top" alt="second-section-img-3">
+          <div class="card-body">
+            <h6 class="card-title">Sierra Nevada National park</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$500</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/second-section-img-4.jpg" class="card-img-top" alt="firts-section-img-1">
+          <div class="card-body">
+            <h6 class="card-title">Laguna de la Restinga National park</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$300</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="third-travel-section mx-md-3 row">
+      <h2 class="col-12 pt-3">
+        Most desired
+      </h2>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/third-section-img-1.jpg" class="card-img-top" alt="second-section-img-1">
+          <div class="card-body">
+            <h6 class="card-title">El Guácharo National park</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$600</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/third-section-img-2.jpg" class="card-img-top" alt="firts-section-img-1">
+          <div class="card-body">
+            <h6 class="card-title">Margarita Island</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$400</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/third-section-img-3.jpg" class="card-img-top" alt="second-section-img-3">
+          <div class="card-body">
+            <h6 class="card-title">Pacaraima Mountain range</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$500</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="col-6 col-md-3">
+        <div class="card border-0 mb-3">
+          <img src="assets/third-section-img-4.jpg" class="card-img-top" alt="firts-section-img-1">
+          <div class="card-body">
+            <h6 class="card-title">Larga island</h6>
+            <p class="card-text">Go with us.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="btn secundary-color fw-bold h1 add-to-car p-0">+</a>
+              <p class="fw-bold color-blue">$300</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer class="container-fluid">
+    <section class="row">
+      <article class="col-12 col-md-7 d-none d-md-block">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img src="assets/logo-color-2.png" alt="" width="100" height="100" class="mt-3">
+          <p class="text-center pt-3">
+            <b>Venezuela Travel Agency</b> It is one of the <b>best travel agencies</b> that will help you <b>reconnect with nature</b> and the importance of <b>preserving the environment</b> and the responsible enjoyment of our natural spaces. <b>We do it with love because we love nature ♥.</b>
+          </p>
+        </div>
+      </article>
+      <article class="col-12 col-md-5 mt-3">
+        <table class="table table-borderless">
+          <thead class="border-bottom">
+            <tr>
+              <th class="col color-text-dark" colspan="2">Regions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Islands</td>
+              <td class="text-end">Tepuis</td>
+            </tr>
+            <tr>
+              <td>Deserts</td>
+              <td class="text-end">Moutains</td>
+            </tr>
+            <tr>
+              <td>Jungles</td>
+              <td class="text-end">Plains</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <article class="last-footer-section col-12 border-top text-center pt-3">
+        <p>
+          Copyright℗ 2021 VenezuelaTravelAgency.com. All Rights Reserverd. Designed by Mohammed Awad.
+        </p>
+      </article>
+    </section>
+  </footer>
+
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

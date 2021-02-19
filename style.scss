@@ -1,0 +1,192 @@
+@import 'variables';
+
+body {
+  background-color: $body-bg-color;
+  color: $color-text-dark;
+}
+
+.title-z-index,
+.subtitle-z-index,
+.input-z-index {
+  @extend %z-index-2;
+}
+
+.navbar {
+  z-index: 3;
+  background-color: $color-text-dark;
+}
+
+.shopping-cart {
+  margin-left: 4px;
+}
+
+.user-icon {
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+.color-white {
+  color: white;
+}
+
+.travel-navbar-brand {
+  color: white;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.travel-navbar-brand:focus {
+  color: white;
+}
+
+.travel-nav-link {
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.travel-nav-link:focus {
+  color: white;
+}
+
+.btn-bg-dark {
+  background-color: $color-text-dark;
+  color: white;
+}
+
+.btn-bg-dark:hover {
+  color: white;
+}
+
+.add-to-car {
+  height: 14px;
+  line-height: 7px;
+}
+
+#particles-js {
+  @extend %bg-color;
+
+  animation: BgGradient 10s ease infinite;
+  width: 100%;
+  height: 87px;
+}
+
+.btn-bg-color {
+  @extend %bg-color;
+
+  animation: BgGradient 2s ease infinite;
+  color: white;
+}
+
+.particles-js-canvas-el {
+  position: relative;
+  top: -61px;
+}
+
+@keyframes BgGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.form-search {
+  width: 278px;
+}
+
+.carousel-section {
+  grid-area: carousel-section;
+}
+
+.first-travel-section {
+  grid-area: first-travel-section;
+}
+
+.second-travel-section {
+  grid-area: second-travel-section;
+}
+
+.third-travel-section {
+  grid-area: third-travel-section;
+}
+
+.main {
+  max-width: 1200px;
+  background-color: white;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "carousel-section"
+    "first-travel-section"
+    "second-travel-section"
+    "third-travel-section";
+}
+
+.img-carousel {
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  height: 300px;
+}
+
+.carousel-control {
+  color: $primary-color;
+  width: 5rem;
+  height: 5rem;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+  opacity: 0.5;
+}
+
+.color-blue {
+  color: $primary-color;
+}
+
+.secundary-color {
+  background-color: $secundary-color;
+  color: white;
+}
+
+.border-white:hover {
+  color: white;
+}
+
+footer {
+  background-color: white;
+}
+
+.color-text-dark {
+  color: $color-text-dark;
+}
+
+@media (min-width: 768px) {
+  .form-search {
+    width: 633px;
+  }
+
+  #particles-js {
+    height: 222px;
+  }
+
+  .particles-js-canvas-el {
+    top: -188px;
+  }
+
+  .img-carousel {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@import 'search-style';
