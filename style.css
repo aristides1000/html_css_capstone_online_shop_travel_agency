@@ -1,16 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 .title-z-index, .subtitle-z-index, .input-z-index {
   z-index: 2;
 }
 
 #particles-js, .btn-bg-color {
-  background: linear-gradient(153deg, #49ffc9 0%, #47f0e4 25%, #45e0ff 50%, #47f0e4 75%, #49ffc9 100%);
+  background: linear-gradient(153deg, #d36c52 0%, #d35266 25%, #d35270 50%, #d35266 75%, #d36c52 100%);
   background-size: 400% 300%;
   background-position: 50%;
 }
 
 body {
   background-color: #f8f9fa;
-  color: rgba(0, 0, 0, 0.55);
+  color: #383838;
+  font-family: "Comfortaa", cursive;
 }
 
 .navbar {
@@ -88,17 +90,17 @@ body {
 }
 
 .carousel-control {
-  color: #45ffff;
+  color: #d35266;
   width: 5rem;
   height: 5rem;
 }
 
 .color-blue {
-  color: #45ffff;
+  color: #d35266;
 }
 
 .secundary-color {
-  background-color: #ffbe98;
+  background-color: #888888;
   color: white;
 }
 
@@ -107,7 +109,7 @@ footer {
 }
 
 .color-text-dark {
-  color: rgba(0, 0, 0, 0.55);
+  color: #383838;
 }
 
 @media (min-width: 768px) {
@@ -150,7 +152,7 @@ footer {
 }
 
 .secundary-color-text {
-  color: #ffbe98;
+  color: #888888;
 }
 
 @media (min-width: 768px) {

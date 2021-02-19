@@ -3,6 +3,7 @@
 body {
   background-color: $body-bg-color;
   color: $color-text-dark;
+  font-family: $comfortaa-fonts;
 }
 
 .title-z-index, .subtitle-z-index, .input-z-index {
@@ -84,13 +85,13 @@ body {
 }
 
 .carousel-control {
-  color: $color-blue;
+  color: $primary-color;
   width: 5rem;
   height: 5rem;
 }
 
 .color-blue {
-  color: $color-blue;
+  color: $primary-color;
 }
 
 .secundary-color {
