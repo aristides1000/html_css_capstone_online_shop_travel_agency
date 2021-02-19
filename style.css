@@ -147,6 +147,7 @@ footer {
 
 .left-section {
   grid-area: left-section;
+  display: none;
 }
 
 .right-section {
@@ -181,6 +182,9 @@ footer {
   .main-search-grid {
     grid-template-columns: 30% 70%;
     grid-template-areas: "left-section right-section";
+  }
+  .left-section {
+    display: block;
   }
 }
 /*# sourceMappingURL=style.css.map */
