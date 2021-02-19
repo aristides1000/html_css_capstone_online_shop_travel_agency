@@ -138,6 +138,10 @@ body {
   height: 5rem;
 }
 
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+  opacity: 0.5;
+}
+
 .color-blue {
   color: $primary-color;
 }
