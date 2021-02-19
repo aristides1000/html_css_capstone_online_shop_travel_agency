@@ -73,6 +73,10 @@ Feel free to check the [issues page](https://github.com/aristides1000/html_css_c
 
 Give a ⭐️ if you like this project!
 
+## License
+
+This project is [CC0-1.0](LICENSE) licensed.
+
 ## Acknowledgments
 
 - Ariel Camus CEO Microverse: For letting us start this journey.
