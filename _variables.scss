@@ -3,15 +3,14 @@
 $body-bg-color: #f8f9fa;
 $color-text-dark: #383838;
 $primary-color: #d35266;
-$secundary-color: #888888;
-$comfortaa-fonts: 'Comfortaa', cursive;
+$secundary-color: #888;
 
 %z-index-2 {
   z-index: 2;
 }
 
 %bg-color {
-  background: linear-gradient(153deg, rgba(211,108,82,1) 0%, rgba(211,82,102,1) 25%, rgb(211,82,112) 50%, rgba(211,82,102,1) 75%, rgba(211,108,82,1) 100%);
+  background: linear-gradient(153deg, rgba(211, 108, 82, 1) 0%, rgba(211, 82, 102, 1) 25%, rgb(211, 82, 112) 50%, rgba(211, 82, 102, 1) 75%, rgba(211, 108, 82, 1) 100%);
   background-size: 400% 300%;
   background-position: 50%;
 }

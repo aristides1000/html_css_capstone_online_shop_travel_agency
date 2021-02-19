@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
-.title-z-index, .subtitle-z-index, .input-z-index {
+
+.title-z-index,
+.subtitle-z-index,
+.input-z-index {
   z-index: 2;
 }
 
-#particles-js, .btn-bg-color {
+#particles-js,
+.btn-bg-color {
   background: linear-gradient(153deg, #d36c52 0%, #d35266 25%, #d35270 50%, #d35266 75%, #d36c52 100%);
   background-size: 400% 300%;
   background-position: 50%;
@@ -12,7 +16,6 @@
 body {
   background-color: #f8f9fa;
   color: #383838;
-  font-family: "Comfortaa", cursive;
 }
 
 .navbar {
@@ -43,9 +46,11 @@ body {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -79,7 +84,8 @@ body {
 .main-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "carousel-section" "first-travel-section" "second-travel-section" "third-travel-section";
+  grid-template-areas:
+ "carousel-section" "first-travel-section" "second-travel-section" "third-travel-section";
 }
 
 .img-carousel {
@@ -100,7 +106,7 @@ body {
 }
 
 .secundary-color {
-  background-color: #888888;
+  background-color: #888;
   color: white;
 }
 
@@ -116,12 +122,15 @@ footer {
   .form-search {
     width: 633px;
   }
+
   #particles-js {
     height: 222px;
   }
+
   .particles-js-canvas-el {
     top: -188px;
   }
+
   .img-carousel {
     width: 500px;
     height: 300px;
@@ -152,7 +161,12 @@ footer {
 }
 
 .secundary-color-text {
-  color: #888888;
+  color: #888;
+}
+
+.form-check-input:checked {
+  background-color: #d35266;
+  border-color: #d35266;
 }
 
 @media (min-width: 768px) {
@@ -161,4 +175,3 @@ footer {
     grid-template-areas: "left-section right-section";
   }
 }
-/*# sourceMappingURL=style.css.map */

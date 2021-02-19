@@ -10,8 +10,7 @@
   background-color: $body-bg-color;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas:
-  "right-section";
+  grid-template-areas: "right-section";
 }
 
 .bg-color-white {
@@ -26,10 +25,14 @@
   color: $secundary-color;
 }
 
+.form-check-input:checked {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
 @media (min-width: 768px) {
   .main-search-grid {
     grid-template-columns: 30% 70%;
-    grid-template-areas:
-    "left-section right-section";
+    grid-template-areas: "left-section right-section";
   }
 }

@@ -3,10 +3,11 @@
 body {
   background-color: $body-bg-color;
   color: $color-text-dark;
-  font-family: $comfortaa-fonts;
 }
 
-.title-z-index, .subtitle-z-index, .input-z-index {
+.title-z-index,
+.subtitle-z-index,
+.input-z-index {
   @extend %z-index-2;
 }
 
@@ -20,6 +21,7 @@ body {
 
 #particles-js {
   @extend %bg-color;
+
   animation: BgGradient 10s ease infinite;
   width: 100%;
   height: 87px;
@@ -27,6 +29,7 @@ body {
 
 .btn-bg-color {
   @extend %bg-color;
+
   animation: BgGradient 2s ease infinite;
   color: white;
 }
@@ -37,9 +40,9 @@ body {
 }
 
 @keyframes BgGradient {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .form-search {
@@ -71,10 +74,10 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "carousel-section"
-  "first-travel-section"
-  "second-travel-section"
-  "third-travel-section";
+    "carousel-section"
+    "first-travel-section"
+    "second-travel-section"
+    "third-travel-section";
 }
 
 .img-carousel {
