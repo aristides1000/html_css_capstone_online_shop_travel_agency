@@ -13,6 +13,7 @@ body {
 
 .navbar {
   z-index: 3;
+  background-color: $color-text-dark;
 }
 
 .shopping-cart {
@@ -26,6 +27,41 @@ body {
 
 .color-white {
   color: white;
+}
+
+.travel-navbar-brand {
+  color: white;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.travel-navbar-brand:focus {
+  color: white;
+}
+
+.travel-nav-link {
+  color: white;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.travel-nav-link:focus {
+  color: white;
+}
+
+.btn-bg-dark {
+  background-color: $color-text-dark;
+  color: white;
+}
+
+.add-to-car {
+  height: 14px;
+  line-height: 7px;
 }
 
 #particles-js {
